@@ -1,34 +1,81 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        }
-    ]
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "React News App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081128/portfolio2/Screenshot_275_lylmdt.jpg",
+      "url": "https://marleen-news.netlify.app"
+    },
+    {
+      "id": 2,
+      "title": "React Google App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081128/portfolio2/Screenshot_277_wq7oac.jpg",
+      "url": "https://marleen-google.netlify.app"
+    },
+    {
+      "id": 3,
+      "title": "Nodejs Chat App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1641960008/portfolio/img2_jdrfmm.png",
+      "url": "/"
+    },
+    {
+      "id": 4,
+      "title": "React Quiz App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081128/portfolio2/Screenshot_276_cul5fe.jpg",
+      "url": "https://marleen-quiz.netlify.app"
+    },
+    {
+      "id": 5,
+      "title": "React Travel Companion App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081129/portfolio2/Screenshot_273_ywdcmy.jpg",
+      "url": "https://marleen-travel.netlify.app"
+    },
+    {
+      "id": 6,
+      "title": "React Map Pin App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081130/portfolio2/Screenshot_281_hmwquw.jpg",
+      "url": "https://marleen-mappin.netlify.app"
+    },
+    {
+      "id": 7,
+      "title": "React Weather App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081129/portfolio2/Screenshot_274_m5bfgn.jpg",
+      "url": "https://marleen-weather.netlify.app"
+    },
+    {
+      "id": 8,
+      "title": "Nextjs Shopping App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081130/portfolio2/Screenshot_282_plshuh.jpg",
+      "url": "marli-chicken-farm-dipanc1.vercel.app"
+    },
+    {
+      "id": 9,
+      "title": "TailwindCSS FB Login Page Clone",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081129/portfolio2/Screenshot_280_ozseb7.jpg",
+      "url": "https://github.com/dipanc1/facebook-login-page-clone-tailwindcss"
+    },
+    {
+      "id": 10,
+      "title": "React Zoom Clone App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081128/portfolio2/Screenshot_279_ham2ug.jpg",
+      "url": "https://marleen-video-calling.netlify.app"
+    },
+    {
+      "id": 11,
+      "title": "React Restaurant Review App",
+      "description": "",
+      "img": "https://res.cloudinary.com/dipanc1/image/upload/v1645081129/portfolio2/Screenshot_283_ogibmb.jpg",
+      "url": "/"
+    }
+  ]
 }
