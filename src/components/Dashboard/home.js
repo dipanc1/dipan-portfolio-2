@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { auth, storage, db } from '../../firebase';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { addDoc } from 'firebase/firestore';
@@ -7,8 +7,10 @@ import { collection } from 'firebase/firestore/lite';
 
 const Home = () => {
     const form = useRef();
+    const [disabled, setDisabled] = useState(false);
 
     const submitPortfolio = (e) => {
+        setDisabled(true);
         e.preventDefault();
         const name = form.current[0]?.value;
         const description = form.current[1]?.value;
@@ -26,6 +28,7 @@ const Home = () => {
                         url,
                         image: downloadUrl
                     })
+                    setDisabled(false);
                 }, (error) => {
                     console.log(error);
                     savePortfolio({
@@ -34,6 +37,7 @@ const Home = () => {
                         url,
                         image: null
                     })
+                    setDisabled(false);
                 })
             }, (error) => {
                 console.log(error);
@@ -43,6 +47,7 @@ const Home = () => {
                     url,
                     image: null
                 })
+                setDisabled(false);
             }
         )
     }
@@ -64,7 +69,7 @@ const Home = () => {
                 <p><textarea placeholder="Description" /></p>
                 <p><input type="text" placeholder="Url" /></p>
                 <p><input type="file" placeholder="Image" /></p>
-                <button type="submit">Submit</button>
+                <button disabled={disabled} type="submit">Submit</button>
                 <button onClick={() => auth.signOut()}>Sign out</button>
             </form>
         </div>
