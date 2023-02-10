@@ -71,7 +71,7 @@ const Contact = () => {
                 <li>
                   <textarea
                     placeholder="Message"
-                    name="message"
+                    name="desc"
                     required
                   ></textarea>
                 </li>

@@ -24,7 +24,17 @@ const Home = () => {
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>o</span>
+            <span className={`${letterClass} _12`}>w</span>
+            <span className={`${letterClass} _12`}>d</span>
+            <span className={`${letterClass} _12`}>y</span>
+            <span className={`${letterClass} _12`}></span>
+            <span className={`${letterClass} _12`}>D</span>
+            <span className={`${letterClass} _12`}>o</span>
+            <span className={`${letterClass} _12`}>w</span>
+            <span className={`${letterClass} _12`}>d</span>
+            <span className={`${letterClass} _12`}>y</span>
+            <span className={`${letterClass} _12`}>,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>

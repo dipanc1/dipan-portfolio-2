@@ -1,8 +1,8 @@
 import './index.scss';
 import LogoS from '../../../assets/images/logo-s.png';
 import { useEffect, useRef } from 'react';
-import gsap from 'gsap-trial';
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
+import gsap from 'gsap';
+import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
 
 const Logo = () => {
     const bgRef = useRef();
@@ -10,7 +10,7 @@ const Logo = () => {
     const solidLogoRef = useRef();
 
     useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
+        gsap.registerPlugin(MotionPathPlugin)
 
         gsap.timeline()
             .to(bgRef.current, {
