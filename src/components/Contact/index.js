@@ -84,17 +84,16 @@ const Contact = () => {
         </div>
         <div className="info-map">
           Dipan Chhabra <br />
-          Sukha Nand Colony, <br />
-          Near Geeta Bhawan, <br />
-          Tapa, Punjab, India
+          Mertensstraße 9, <br />
+          Berlin, Germany
           <br />
           <br />
           <span>dipanchhabra@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[30.29939, 75.36808]} zoom={13}>
+          <MapContainer center={[52.55186, 13.21110]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[30.29939, 75.36808]}>
+            <Marker position={[52.55186, 13.21110]}>
               <Popup>Dipan lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
